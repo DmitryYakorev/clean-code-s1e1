@@ -170,3 +170,15 @@ ul li input[type=text] {
 .edit-mode .incomplete-task-message {
   display: none;
 }
+.incomplete-task-message,
+.completed-task-message {
+  padding-left: 10px;
+  box-sizing: border-box;
+  font-size: 18px;
+  width: 226px;
+}
+
+.incomplete-task-new-message,
+.completed-task-new-message {
+  width: 226px;
+}
