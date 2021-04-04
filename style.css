@@ -150,12 +150,12 @@ input#new-task {
     display: none;
 }
 
-.ul .li.editMode input[type=text] {
+ul li.editMode input[type=text] {
     display: inline-block;
     width: 224px;
 }
 
-.ul .li input[type=text] {
+ul li input[type=text] {
     display: none;
   }
 
