@@ -120,6 +120,8 @@ var taskCompleted=function(){
     console.log("Complete Task...");
 
     //Append the task list item to the #completed-tasks
+    this.parentNode.querySelector("label").classList.add('completed-task-message')
+    this.parentNode.querySelector("label").classList.remove('incomplete-task-message')
     var listItem=this.parentNode;
     completedTasksHolder.appendChild(listItem);
     bindTaskEvents(listItem, taskIncomplete);
@@ -132,6 +134,8 @@ var taskIncomplete=function(){
 //Mark task as incomplete.
     //When the checkbox is unchecked
     //Append the task list item to the #incompleteTasks.
+    this.parentNode.querySelector("label").classList.remove('completed-task-message')
+    this.parentNode.querySelector("label").classList.add('incomplete-task-message')
     var listItem=this.parentNode;
     incompleteTaskHolder.appendChild(listItem);
     bindTaskEvents(listItem,taskCompleted);
