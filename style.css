@@ -160,18 +160,18 @@ ul li input[type=text] {
     display: none;
   }
 
-ul li
+
 .edit-mode 
 .incomplete-task-new-message,
-ul li
+
 .edit-mode 
 .completed-task-new-message {
   display: inline-block;
   width: 224px;
 }
 
-ul li.edit-mode .completed-task-message,
-ul li.edit-mode .incomplete-task-message {
+.edit-mode .completed-task-message,
+.edit-mode .incomplete-task-message {
   display: none;
 }
 .incomplete-task-message,
