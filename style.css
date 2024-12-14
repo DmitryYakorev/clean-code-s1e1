@@ -13,7 +13,7 @@ body {
 .up-container img {
     width: 100%;
 }
-.up-container .more_inf {
+.up-container__more_inf {
     font-family: fantasy, cursive;
 }
 
