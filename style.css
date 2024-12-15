@@ -13,7 +13,7 @@ body {
 .up-container img {
     width: 100%;
 }
-.up-container .more_inf {
+.up-container__more_inf {
     font-family: fantasy, cursive;
 }
 
@@ -21,17 +21,17 @@ body {
 .up-container { text-align: center;
 }
 }
-.centered-main-page-element {
+.main-container {
     display: block;
     width: 500px;
     margin: 0 auto 0;
 }
-.task {
+.main-container__row-wrapper_task {
     width: 56%;
     display: inline-block;
     flex-grow: 1
 }
-.task-row-wrapper {
+.main-container__row-wrapper {
     display: flex;
 }
 ul {
@@ -58,7 +58,7 @@ button:hover {
 }
 /* Heading */
 h3,
-label[for='new-task'] {
+label[for="new-task"] {
     color: #333;
     font-weight: 700;
     font-size: 15px;
